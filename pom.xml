@@ -51,6 +51,9 @@
       </plugin>
 
       <!-- Plugin SonarQube -->
+         <properties>
+           <sonar.organization>elveyy</sonar.organization>
+         </properties>
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
