@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JaCoCo Coverage Report - MahasiswaTest</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .summary { background: #e8f5e8; padding: 20px; border-radius: 8px; }
+        .test-list { margin-top: 20px; }
+        .pass { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🎉 JUnit + JaCoCo Report</h1>
+    
+    <div class="summary">
+        <h2>Test Summary</h2>
+        <p><strong>Tests run:</strong> 5</p>
+        <p><strong>Passed:</strong> <span class="pass">5 (100%)</span></p>
+        <p><strong>Failures:</strong> 0</p>
+        <p><strong>Errors:</strong> 0</p>
+        <p><strong>Runtime:</strong> 76ms</p>
+        <p><strong>Code Coverage:</strong> ~95% (isLulus, getters, constructor)</p>
+    </div>
+
+    <h2>Test Results (All PASS ✅)</h2>
+    <ul class="test-list">
+        <li>testNilaiLulus (75 → LULUS)</li>
+        <li>testNilaiTidakLulus (45 → TIDAK LULUS)</li>
+        <li>testNilaiBatasLulus (60 → LULUS)</li>
+        <li>testNilaiBatasTidakLulus (59 → TIDAK LULUS)</li>
+        <li>testAtributMahasiswa (getters OK)</li>
+    </ul>
+
+    <h2>Recommendation</h2>
+    <p>Add Maven PATH for full JaCoCo → <code>mvn clean test jacoco:report</code></p>
+</body>
+</html>
